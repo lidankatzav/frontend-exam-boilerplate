@@ -8,6 +8,62 @@
     <title>Lidan Katzav - Exam</title>
   </head>
   <body>
+    <h1>Currency Converter</h1>
+
+    <section class="currency-converter-form">
+      <form id="currency-converter-form" action="">
+        <label for="currency">Currency:</label>
+        <select id="currency" name="currency">
+          <option>USD (United States Dollar)</option>
+          <option>EUR (Euro)</option>
+          <option>GBP (Great Britain Pound)</option>
+          <option>CAD (Canadian Dollar)</option>
+          <option>AUD (Australian Dollar)</option>
+          <option>GPY (Japanese Yen)</option>
+        </select>
+        <br />
+        <label for="date">Exchange Date:</label>
+        <input
+          type="date"
+          id="date"
+          name="date"
+          value="2021-10-01"
+        /><br /><br />
+        <button type="sumbit">Sumbit</button>
+        <div class="result">
+          Exchange Rate to ILS: <span id="exchangeResult">3.452</span>
+        </div>
+      </form>
+    </section>
+
+    <section class="currency-converter-table">
+      <table>
+        <thead>
+          <tr>
+            <th>date</th>
+            <th>currency</th>
+            <th>exchange rate</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>12-01-2022</td>
+            <td>USD</td>
+            <td>3.1548</td>
+          </tr>
+          <tr>
+            <td>01-02-2021</td>
+            <td>EUR</td>
+            <td>3.276</td>
+          </tr>
+          <tr>
+            <td>25-02-2020</td>
+            <td>GPY</td>
+            <td>3.1548</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
