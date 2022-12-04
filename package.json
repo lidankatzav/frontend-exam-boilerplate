@@ -25,5 +25,36 @@
   "bugs": {
     "url": "https://github.com/lidankatzav/frontend-exam-boilerplate/issues"
   },
-  "homepage": "https://github.com/lidankatzav/frontend-exam-boilerplate#readme"
+  "homepage": "https://github.com/lidankatzav/frontend-exam-boilerplate#readme",
+  "dependencies": {
+    "binary-extensions": "^2.2.0",
+    "anymatch": "^3.1.3",
+    "fill-range": "^7.0.1",
+    "chokidar": "^3.5.3",
+    "esbuild": "^0.15.15",
+    "fsevents": "^2.3.2",
+    "braces": "^3.0.2",
+    "glob-parent": "^5.1.2",
+    "function-bind": "^1.1.1",
+    "is-binary-path": "^2.1.0",
+    "has": "^1.0.3",
+    "esbuild-darwin-arm64": "^0.15.15",
+    "is-glob": "^4.0.3",
+    "immutable": "^4.1.0",
+    "is-core-module": "^2.11.0",
+    "nanoid": "^3.3.4",
+    "is-number": "^7.0.0",
+    "is-extglob": "^2.1.1",
+    "picocolors": "^1.0.0",
+    "normalize-path": "^3.0.0",
+    "path-parse": "^1.0.7",
+    "readdirp": "^3.6.0",
+    "postcss": "^8.4.19",
+    "resolve": "^1.22.1",
+    "picomatch": "^2.3.1",
+    "to-regex-range": "^5.0.1",
+    "supports-preserve-symlinks-flag": "^1.0.0",
+    "source-map-js": "^1.0.2",
+    "rollup": "^2.79.1"
+  }
 }
