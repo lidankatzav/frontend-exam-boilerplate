@@ -25,7 +25,8 @@ h1 {
 
 .result {
   position: relative;
-  padding: 20px;
+  padding: 10px;
+  margin: 20px;
   border: $cell-border;
   border-radius: $section-cell-border-radius;
 }
@@ -55,6 +56,8 @@ table {
   border-radius: $section-cell-border-radius;
   margin: auto;
   width: 304px;
+  align-self: center;
+  text-align: center;
 
   thead,
   tfoot {
@@ -65,4 +68,13 @@ table {
   tr {
     position: relative;
   }
+}
+
+#currency-converter-form {
+  align-items: center;
+  text-align: center;
+  display: block;
+  border: 2px solid #1976d2;
+  border-radius: 4px;
+  margin: 20px;
 }
